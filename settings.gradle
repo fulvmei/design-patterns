@@ -11,4 +11,5 @@ rootProject.name = 'design-patterns'
 include('app')
 include('proxy')
 include('observer')
+include 'adapter'
 
