@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a67e13c-567c-4bcd-ba39-32ab985d5853" name="变更" comment="feat:添加proxy模块">
-      <change beforePath="$PROJECT_DIR$/proxy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/build.gradle" afterDir="false" />
+    <list default="true" id="1a67e13c-567c-4bcd-ba39-32ab985d5853" name="变更" comment="build:修改proxy模块的gradle配置文件">
+      <change afterPath="$PROJECT_DIR$/observer/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/fulvmei/desiginpattern/structurl/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/fulvmei/desiginpattern/structurl/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/fulvmei/desiginpattern/structurl/observer/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -50,7 +57,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.Main">
+  <component name="RunManager" selected="应用程序.com.fulvmei.desiginpattern.structurl.observer.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design.patterns.App" />
       <module name="design-patterns.app.main" />
@@ -77,8 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.fulvmei.desiginpattern.structurl.observer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fulvmei.desiginpattern.structurl.observer.Main" />
+      <module name="design-patterns.observer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fulvmei.desiginpattern.structurl.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.com.fulvmei.desiginpattern.structurl.observer.Main" />
         <item itemvalue="应用程序.Main" />
         <item itemvalue="应用程序.App" />
       </list>
@@ -92,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692148230731</updated>
-      <workItem from="1692148232437" duration="1916000" />
+      <workItem from="1692148232437" duration="3494000" />
     </task>
     <task id="LOCAL-00001" summary="feat:添加proxy模块">
       <created>1692150056571</created>
@@ -101,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692150056572</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="build:修改proxy模块的gradle配置文件">
+      <created>1692150222202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692150222202</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat:添加proxy模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:添加proxy模块" />
+    <MESSAGE value="build:修改proxy模块的gradle配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="build:修改proxy模块的gradle配置文件" />
   </component>
 </project>
