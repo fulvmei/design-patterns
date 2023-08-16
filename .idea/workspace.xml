@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a67e13c-567c-4bcd-ba39-32ab985d5853" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/structure-proxy/design-patterns.structure-proxy.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/fulvmei/designpatterns/structural/proxy/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/fulvmei/designpatterns/structural/proxy/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/fulvmei/designpatterns/structural/proxy/SubjectProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure-proxy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure-proxy/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/fulvmei/designpatterns/structural/proxy/Main.java" afterDir="false" />
+    <list default="true" id="1a67e13c-567c-4bcd-ba39-32ab985d5853" name="变更" comment="feat:添加proxy模块">
+      <change beforePath="$PROJECT_DIR$/proxy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,8 +92,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692148230731</updated>
-      <workItem from="1692148232437" duration="1540000" />
+      <workItem from="1692148232437" duration="1916000" />
     </task>
+    <task id="LOCAL-00001" summary="feat:添加proxy模块">
+      <created>1692150056571</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692150056572</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,5 +117,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat:添加proxy模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:添加proxy模块" />
   </component>
 </project>
