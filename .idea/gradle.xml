@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/observer" />
             <option value="$PROJECT_DIR$/proxy" />
             <option value="$PROJECT_DIR$/struct" />
+            <option value="$PROJECT_DIR$/struct/composite" />
             <option value="$PROJECT_DIR$/struct/flyweight" />
           </set>
         </option>
