@@ -15,4 +15,6 @@ include 'adapter'
 include ':struct:flyweight'
 include 'struct:composite'
 findProject(':struct:composite')?.name = 'composite'
+include 'struct:facade'
+findProject(':struct:facade')?.name = 'facade'
 

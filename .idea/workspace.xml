@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a67e13c-567c-4bcd-ba39-32ab985d5853" name="变更" comment="feat:添加struct:flyweight模块">
-      <change afterPath="$PROJECT_DIR$/struct/composite/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/struct/composite/src/main/java/com/fulvmei/designpatterns/struct/composite/Folder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/struct/composite/src/main/java/com/fulvmei/designpatterns/struct/composite/Main.java" afterDir="false" />
+    <list default="true" id="1a67e13c-567c-4bcd-ba39-32ab985d5853" name="变更" comment="feat:添加struct:composite模块">
+      <change afterPath="$PROJECT_DIR$/struct/facade/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/facade/src/main/java/com/fulvmei/designpatterns/struct/facade/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/facade/src/main/java/com/fulvmei/designpatterns/struct/facade/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/facade/src/main/java/com/fulvmei/designpatterns/struct/facade/SubSystem1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/facade/src/main/java/com/fulvmei/designpatterns/struct/facade/SubSystem2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/facade/src/main/java/com/fulvmei/designpatterns/struct/facade/SubSystem3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/struct/flyweight/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/struct/flyweight/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,23 +65,11 @@
       <recent name="D:\Code\JAVA\design-patterns\struct" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fulvmei.designpatterns.struct.facade" />
       <recent name="com.fulvmei.desiginpattern.structurl.adapter" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.com.fulvmei.designpatterns.struct.composite.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fulvmei.designpatterns.structural.proxy.Main" />
-      <module name="design-patterns.proxy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fulvmei.designpatterns.structural.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.com.fulvmei.designpatterns.struct.facade.Main">
     <configuration name="com.fulvmei.desiginpattern.structurl.adapter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fulvmei.desiginpattern.structurl.adapter.Main" />
       <module name="design-patterns.adapter.main" />
@@ -119,6 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.fulvmei.designpatterns.struct.facade.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fulvmei.designpatterns.struct.facade.Main" />
+      <module name="design-patterns.struct.facade.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fulvmei.designpatterns.struct.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.fulvmei.designpatterns.struct.flyweight.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fulvmei.designpatterns.struct.flyweight.Main" />
       <module name="design-patterns.struct.flyweight.main" />
@@ -134,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.com.fulvmei.designpatterns.struct.facade.Main" />
         <item itemvalue="应用程序.com.fulvmei.designpatterns.struct.composite.Main" />
         <item itemvalue="应用程序.com.fulvmei.designpatterns.struct.flyweight.Main" />
         <item itemvalue="应用程序.com.fulvmei.desiginpattern.structurl.adapter.Main" />
         <item itemvalue="应用程序.com.fulvmei.desiginpattern.structurl.observer.Main" />
-        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692148230731</updated>
       <workItem from="1692148232437" duration="7257000" />
-      <workItem from="1692258720462" duration="3370000" />
+      <workItem from="1692258720462" duration="4029000" />
     </task>
     <task id="LOCAL-00001" summary="feat:添加proxy模块">
       <created>1692150056571</created>
@@ -195,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692259995034</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat:添加struct:composite模块">
+      <created>1692262197059</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692262197059</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +228,7 @@
     <MESSAGE value="feat:添加observer模块" />
     <MESSAGE value="feat:添加adapter模块" />
     <MESSAGE value="feat:添加struct:flyweight模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:添加struct:flyweight模块" />
+    <MESSAGE value="feat:添加struct:composite模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:添加struct:composite模块" />
   </component>
 </project>
