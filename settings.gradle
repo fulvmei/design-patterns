@@ -26,4 +26,6 @@ include 'behavioral:template'
 findProject(':behavioral:template')?.name = 'template'
 include 'behavioral:iterator'
 findProject(':behavioral:iterator')?.name = 'iterator'
+include 'behavioral:state'
+findProject(':behavioral:state')?.name = 'state'
 
