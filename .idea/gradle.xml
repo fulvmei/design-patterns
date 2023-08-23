@@ -11,14 +11,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/adapter" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/observer" />
-            <option value="$PROJECT_DIR$/proxy" />
+            <option value="$PROJECT_DIR$/behavioral" />
+            <option value="$PROJECT_DIR$/behavioral/observer" />
+            <option value="$PROJECT_DIR$/behavioral/strategy" />
             <option value="$PROJECT_DIR$/struct" />
+            <option value="$PROJECT_DIR$/struct/adapter" />
             <option value="$PROJECT_DIR$/struct/composite" />
             <option value="$PROJECT_DIR$/struct/facade" />
             <option value="$PROJECT_DIR$/struct/flyweight" />
+            <option value="$PROJECT_DIR$/struct/proxy" />
           </set>
         </option>
       </GradleProjectSettings>

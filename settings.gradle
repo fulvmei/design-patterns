@@ -9,12 +9,16 @@
 
 rootProject.name = 'design-patterns'
 include('app')
-include('proxy')
-include('observer')
-include 'adapter'
+
+//struct
+include ':struct:proxy'
+include ':struct:adapter'
 include ':struct:flyweight'
-include 'struct:composite'
-findProject(':struct:composite')?.name = 'composite'
-include 'struct:facade'
-findProject(':struct:facade')?.name = 'facade'
+include ':struct:composite'
+include ':struct:facade'
+
+//behavioral
+include(':behavioral:observer')
+include 'behavioral:strategy'
+findProject(':behavioral:strategy')?.name = 'strategy'
 

@@ -1,4 +1,4 @@
-package com.fulvmei.desiginpattern.structurl.observer;
+package com.fulvmei.desiginpattern.behavioral.observer;
 
 import java.util.HashSet;
 import java.util.Set;

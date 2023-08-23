@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'com.fulvmei.desiginpattern.structurl.observer'
+group 'com.fulvmei.desiginpattern.behavioral.observer'
 version '1.0.0'
 
 repositories {

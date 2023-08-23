@@ -1,4 +1,4 @@
-package com.fulvmei.desiginpattern.structurl.observer;
+package com.fulvmei.desiginpattern.behavioral.observer;
 
 public class Observer {
     public void update() {
