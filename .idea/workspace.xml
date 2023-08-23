@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a67e13c-567c-4bcd-ba39-32ab985d5853" name="变更" comment="feat:添加behavioral:strategy模块">
-      <change afterPath="$PROJECT_DIR$/behavioral/strategy/src/main/java/com/fulvmei/desiginpattern/behavioral/strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioral/strategy/src/main/java/com/fulvmei/desiginpattern/behavioral/strategy/OperationAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioral/strategy/src/main/java/com/fulvmei/desiginpattern/behavioral/strategy/OperationMultiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioral/strategy/src/main/java/com/fulvmei/desiginpattern/behavioral/strategy/OperationSubtract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioral/strategy/src/main/java/com/fulvmei/desiginpattern/behavioral/strategy/Strategy.java" afterDir="false" />
+    <list default="true" id="1a67e13c-567c-4bcd-ba39-32ab985d5853" name="变更" comment="feat:实现策略模式">
+      <change afterPath="$PROJECT_DIR$/behavioral/template/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioral/template/src/main/java/com/fulvmei/desiginpattern/behavioral/template/Cricket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioral/template/src/main/java/com/fulvmei/desiginpattern/behavioral/template/Football.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioral/template/src/main/java/com/fulvmei/desiginpattern/behavioral/template/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioral/template/src/main/java/com/fulvmei/desiginpattern/behavioral/template/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral/strategy/src/main/java/com/fulvmei/desiginpattern/behavioral/strategy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/behavioral/strategy/src/main/java/com/fulvmei/desiginpattern/behavioral/strategy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <recent name="com.fulvmei.desiginpattern.structurl.adapter" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Main">
+  <component name="RunManager" selected="应用程序.com.fulvmei.desiginpattern.behavioral.template.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fulvmei.desiginpattern.behavioral.strategy.Main" />
       <module name="design-patterns.behavioral.strategy.main" />
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.fulvmei.desiginpattern.structurl.adapter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fulvmei.desiginpattern.structurl.adapter.Main" />
-      <module name="design-patterns.adapter.main" />
+    <configuration name="com.fulvmei.desiginpattern.behavioral.template.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fulvmei.desiginpattern.behavioral.template.Main" />
+      <module name="design-patterns.behavioral.template.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fulvmei.desiginpattern.structurl.adapter.*" />
+          <option name="PATTERN" value="com.fulvmei.desiginpattern.behavioral.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.com.fulvmei.desiginpattern.behavioral.template.Main" />
         <item itemvalue="应用程序.Main" />
         <item itemvalue="应用程序.com.fulvmei.designpatterns.struct.facade.Main" />
         <item itemvalue="应用程序.com.fulvmei.designpatterns.struct.composite.Main" />
         <item itemvalue="应用程序.com.fulvmei.designpatterns.struct.flyweight.Main" />
-        <item itemvalue="应用程序.com.fulvmei.desiginpattern.structurl.adapter.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +159,7 @@
       <workItem from="1692148232437" duration="7257000" />
       <workItem from="1692258720462" duration="5038000" />
       <workItem from="1692695704153" duration="1524000" />
-      <workItem from="1692753147090" duration="289000" />
+      <workItem from="1692753147090" duration="1307000" />
     </task>
     <task id="LOCAL-00001" summary="feat:添加proxy模块">
       <created>1692150056571</created>
@@ -223,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692753178401</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat:实现策略模式">
+      <created>1692753497105</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692753497105</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +257,7 @@
     <MESSAGE value="feat:添加struct:composite模块" />
     <MESSAGE value="feat:添加struct:facade模块" />
     <MESSAGE value="feat:添加behavioral:strategy模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:添加behavioral:strategy模块" />
+    <MESSAGE value="feat:实现策略模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:实现策略模式" />
   </component>
 </project>

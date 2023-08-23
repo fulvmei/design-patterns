@@ -18,7 +18,10 @@ include ':struct:composite'
 include ':struct:facade'
 
 //behavioral
-include(':behavioral:observer')
+include 'behavioral:observer'
+findProject(':behavioral:observer')?.name = 'observer'
 include 'behavioral:strategy'
 findProject(':behavioral:strategy')?.name = 'strategy'
+include 'behavioral:template'
+findProject(':behavioral:template')?.name = 'template'
 
