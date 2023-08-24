@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/behavioral/state" />
             <option value="$PROJECT_DIR$/behavioral/strategy" />
             <option value="$PROJECT_DIR$/behavioral/template" />
+            <option value="$PROJECT_DIR$/behavioral/visitor" />
             <option value="$PROJECT_DIR$/struct" />
             <option value="$PROJECT_DIR$/struct/adapter" />
             <option value="$PROJECT_DIR$/struct/composite" />
