@@ -34,4 +34,6 @@ include 'behavioral:memento'
 findProject(':behavioral:memento')?.name = 'memento'
 include 'behavioral:visitor'
 findProject(':behavioral:visitor')?.name = 'visitor'
+include 'behavioral:command'
+findProject(':behavioral:command')?.name = 'command'
 
