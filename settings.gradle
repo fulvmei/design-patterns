@@ -30,4 +30,6 @@ include 'behavioral:state'
 findProject(':behavioral:state')?.name = 'state'
 include 'behavioral:chain'
 findProject(':behavioral:chain')?.name = 'chain'
+include 'behavioral:memento'
+findProject(':behavioral:memento')?.name = 'memento'
 
