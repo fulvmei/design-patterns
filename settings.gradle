@@ -28,4 +28,6 @@ include 'behavioral:iterator'
 findProject(':behavioral:iterator')?.name = 'iterator'
 include 'behavioral:state'
 findProject(':behavioral:state')?.name = 'state'
+include 'behavioral:chain'
+findProject(':behavioral:chain')?.name = 'chain'
 

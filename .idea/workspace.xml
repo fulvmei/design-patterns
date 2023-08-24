@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a67e13c-567c-4bcd-ba39-32ab985d5853" name="变更" comment="feat:新增behavioral:iterator模块">
-      <change afterPath="$PROJECT_DIR$/behavioral/state/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioral/state/src/main/java/com/fulvmei/desiginpattern/behavioral/state/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioral/state/src/main/java/com/fulvmei/desiginpattern/behavioral/state/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioral/state/src/main/java/com/fulvmei/desiginpattern/behavioral/state/StartState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioral/state/src/main/java/com/fulvmei/desiginpattern/behavioral/state/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behavioral/state/src/main/java/com/fulvmei/desiginpattern/behavioral/state/StopState.java" afterDir="false" />
+    <list default="true" id="1a67e13c-567c-4bcd-ba39-32ab985d5853" name="变更" comment="feat:新增behavioral:state模块">
+      <change afterPath="$PROJECT_DIR$/behavioral/chain/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioral/chain/src/main/java/com/fulvmei/desiginpattern/behavioral/chan/ConcreteHandler1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioral/chain/src/main/java/com/fulvmei/desiginpattern/behavioral/chan/ConcreteHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioral/chain/src/main/java/com/fulvmei/desiginpattern/behavioral/chan/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavioral/chain/src/main/java/com/fulvmei/desiginpattern/behavioral/chan/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
@@ -69,17 +68,31 @@
       <recent name="D:\Code\JAVA\design-patterns\behavioral" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fulvmei.desiginpattern.behavioral.chan" />
       <recent name="com.fulvmei.designpatterns.struct.facade" />
       <recent name="com.fulvmei.desiginpattern.structurl.adapter" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.com.fulvmei.desiginpattern.behavioral.state.Main">
+  <component name="RunManager" selected="应用程序.com.fulvmei.desiginpattern.behavioral.chan.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fulvmei.desiginpattern.behavioral.strategy.Main" />
       <module name="design-patterns.behavioral.strategy.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fulvmei.desiginpattern.behavioral.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.fulvmei.desiginpattern.behavioral.chan.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fulvmei.desiginpattern.behavioral.chan.Main" />
+      <module name="design-patterns.behavioral.chain.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fulvmei.desiginpattern.behavioral.chan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,26 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.fulvmei.designpatterns.struct.facade.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fulvmei.designpatterns.struct.facade.Main" />
-      <module name="design-patterns.struct.facade.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fulvmei.designpatterns.struct.facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.com.fulvmei.desiginpattern.behavioral.chan.Main" />
         <item itemvalue="应用程序.com.fulvmei.desiginpattern.behavioral.state.Main" />
         <item itemvalue="应用程序.com.fulvmei.desiginpattern.behavioral.iterator.Main" />
         <item itemvalue="应用程序.com.fulvmei.desiginpattern.behavioral.template.Main" />
         <item itemvalue="应用程序.Main" />
-        <item itemvalue="应用程序.com.fulvmei.designpatterns.struct.facade.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +160,8 @@
       <workItem from="1692148232437" duration="7257000" />
       <workItem from="1692258720462" duration="5038000" />
       <workItem from="1692695704153" duration="1524000" />
-      <workItem from="1692753147090" duration="4583000" />
+      <workItem from="1692753147090" duration="4693000" />
+      <workItem from="1692780013444" duration="1238000" />
     </task>
     <task id="LOCAL-00001" summary="feat:添加proxy模块">
       <created>1692150056571</created>
@@ -246,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692756819276</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat:新增behavioral:state模块">
+      <created>1692772501329</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692772501329</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +283,7 @@
     <MESSAGE value="feat:实现策略模式" />
     <MESSAGE value="feat:新增behavioral:template模块" />
     <MESSAGE value="feat:新增behavioral:iterator模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:新增behavioral:iterator模块" />
+    <MESSAGE value="feat:新增behavioral:state模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:新增behavioral:state模块" />
   </component>
 </project>

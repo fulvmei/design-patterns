@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/behavioral" />
+            <option value="$PROJECT_DIR$/behavioral/chain" />
             <option value="$PROJECT_DIR$/behavioral/iterator" />
             <option value="$PROJECT_DIR$/behavioral/observer" />
             <option value="$PROJECT_DIR$/behavioral/state" />
